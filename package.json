@@ -1,0 +1,30 @@
+{
+  "name": "nuxt_demo",
+  "version": "1.0.0",
+  "description": "My impeccable Nuxt.js project",
+  "author": "readyWwq",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env BASE_URL=http://tstposapi.kx910.com/api/v1/ nuxt",
+    "build": "nuxt build",
+    "start": "cross-env BASE_URL=http://preposapi.kx910.com/api/v1/ nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.9.5",
+    "axios": "^0.20.0",
+    "babel-plugin-import": "^1.13.0",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.0",
+    "nuxt": "^2.14.0",
+    "vant": "^2.10.3",
+    "vuedraggable": "^2.23.2",
+    "vuex-persistedstate": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "postcss-px-to-viewport": "^1.1.1"
+  }
+}
